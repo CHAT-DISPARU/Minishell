@@ -36,8 +36,8 @@ Demande du sujet:
   - [x] unset
   - [x] env
   - [x] exit
-- [ ] proteger tous les mallocs
-- [ ] Norme
+- [x] proteger tous les mallocs
+- [x] Norme
 
 ## Function and utility
 
