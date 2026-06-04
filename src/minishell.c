@@ -6,7 +6,7 @@
 /*   By: titan <titan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/11 16:38:42 by gajanvie          #+#    #+#             */
-/*   Updated: 2026/01/14 09:19:49 by titan            ###   ########.fr       */
+/*   Updated: 2026/02/27 09:43:11 by ntome            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,6 +60,7 @@ void	ms_init_data(t_minishell *ms, char **envp)
 		update_env_val(ms->envp, "SHLVL", new_shlvl);
 		free(new_shlvl);
 	}
+	ms_print_start(ms);
 }
 
 void	exec_cmd(t_minishell *ms)

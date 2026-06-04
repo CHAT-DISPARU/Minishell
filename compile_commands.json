@@ -1,38 +1,682 @@
 [
-  {
-    "arguments": [
-      "/usr/bin/cc",
-      "-I",
-      "includes/",
-      "-c",
-      "-Wall",
-      "-Werror",
-      "-Wextra",
-      "-g",
-      "-o",
-      "build/minishell.o",
-      "src/minishell.c"
-    ],
-    "directory": "/home/nicolas/Documents/minishell",
-    "file": "/home/nicolas/Documents/minishell/src/minishell.c",
-    "output": "/home/nicolas/Documents/minishell/build/minishell.o"
-  },
-  {
-    "arguments": [
-      "/usr/bin/cc",
-      "-I",
-      "includes/",
-      "-c",
-      "-Wall",
-      "-Werror",
-      "-Wextra",
-      "-g",
-      "-o",
-      "build/prompt/prompt.o",
-      "src/prompt/prompt.c"
-    ],
-    "directory": "/home/nicolas/Documents/minishell",
-    "file": "/home/nicolas/Documents/minishell/src/prompt/prompt.c",
-    "output": "/home/nicolas/Documents/minishell/build/prompt/prompt.o"
-  }
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/minishell.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/minishell.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/minishell.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/prompt/prompt.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/prompt/prompt.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/prompt/prompt.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/token/token.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/token/token.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/token/token.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/token/verify_tokens.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/token/verify_tokens.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/token/verify_tokens.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/token/free_tokens.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/token/free_tokens.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/token/free_tokens.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/token/token_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/token/token_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/token/token_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/token/token_utils2.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/token/token_utils2.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/token/token_utils2.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/signal/signal.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/signal/signal.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/signal/signal.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/ft_init_env.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/ft_init_env.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/ft_init_env.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/parser/ft_add_cmd.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/parser/ft_add_cmd.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/parser/ft_add_cmd.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/parser/ft_find_path.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/parser/ft_find_path.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/parser/ft_find_path.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/parser/parser.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/parser/parser.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/parser/parser.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/parser/parser_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/parser/parser_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/parser/parser_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/parser/ft_create_rand_name.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/parser/ft_create_rand_name.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/parser/ft_create_rand_name.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/heredoc_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/heredoc_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/heredoc_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/execute_pipe/pipeline.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/execute_pipe/pipeline.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/execute_pipe/pipeline.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/execute_pipe/clear_pipeline.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/execute_pipe/clear_pipeline.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/execute_pipe/clear_pipeline.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/execute_pipe/ft_wait_all.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/execute_pipe/ft_wait_all.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/execute_pipe/ft_wait_all.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/execute_pipe/init_exec.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/execute_pipe/init_exec.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/execute_pipe/init_exec.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/env_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/env_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/env_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/env_utils2.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/env_utils2.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/env_utils2.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/main_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/main_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/main_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/cd.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/cd.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/cd.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/init_cd.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/init_cd.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/init_cd.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/built-in_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/built-in_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/built-in_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/exit.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/exit.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/exit.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/pwd.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/pwd.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/pwd.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/env.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/env.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/env.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/unset.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/unset.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/unset.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/echo.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/echo.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/echo.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/export_utils.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/export_utils.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/export_utils.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/export_print.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/export_print.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/export_print.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/export_expand.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/export_expand.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/export_expand.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/gajanvie.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/gajanvie.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/gajanvie.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/latina.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/latina.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/latina.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/gamble.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/gamble.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/gamble.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/ntome.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/ntome.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/ntome.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/maia.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/maia.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/maia.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/executer/built-in/export.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/executer/built-in/export.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/executer/built-in/export.c"
+ },
+ {
+  "directory": "/home/ntome/Documents/minish",
+  "arguments": [
+   "cc",
+   "-o",
+   "build/token/verify_tokens2.o",
+   "-I",
+   "includes/",
+   "-c",
+   "src/token/verify_tokens2.c",
+   "-Wall",
+   "-Werror",
+   "-Wextra",
+   "-g"
+  ],
+  "file": "src/token/verify_tokens2.c"
+ }
 ]
